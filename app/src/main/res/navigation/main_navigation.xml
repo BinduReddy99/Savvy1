@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/splahScreenFrag">
+
+    <fragment
+        android:id="@+id/splahScreenFrag"
+        android:name="com.hostelinfo.savvy.ui.fragment.splashscreen.SplahScreenFrag"
+        android:label="fragment_splah_screen"
+        tools:layout="@layout/fragment_splah_screen" >
+        <action
+            android:id="@+id/action_splahScreenFrag_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.hostelinfo.savvy.ui.fragment.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/lofin_fragment" />
+</navigation>
