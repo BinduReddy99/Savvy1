@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
-    tools:context=".ui.fragment.splashscreen.SplahScreenFrag">
+    tools:context=".ui.fragment.splashscreen.SplashScreenFrag">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -13,10 +13,10 @@
 
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
             android:layout_gravity="center"
-            android:src="@drawable/splash1_background" />
+            android:src="@mipmap/splashbackground" />
 
     </FrameLayout>
 </FrameLayout>

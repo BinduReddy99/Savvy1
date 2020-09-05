@@ -1,4 +1,4 @@
-package com.example.mvvmsample.util
+package com.hostelinfo.savvy.utilities.coroutine
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
